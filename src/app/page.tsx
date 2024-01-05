@@ -8,7 +8,7 @@ import { IoIosMore } from 'react-icons/io'
 export default function Home() {
 	return (
 		<main>
-			<header className="bg-red-100 p-4 px-6 flex items-center justify-between">
+			<header className="p-4 px-6 flex items-center justify-between">
 				<div className="flex gap-3  items-center">
 					<img
 						src="https://t.ly/wwMqv"
@@ -22,14 +22,14 @@ export default function Home() {
 				</div>
 				<div className="icons flex gap-4 text-zinc-500 text-xl font-semibold items-center py-2">
 					<SlPieChart className="rotate-90" />
-					<PiNutLight className="text-2xl" />
+					<PiNutLight className="text-2xl stroke-[3]" />
 					<SlGrid />
 				</div>
 			</header>
 			<section className="overview p-8 flex flex-col items-start justify-center">
 				<div className="balance mb-6">
-					<p className="text-zinc-500 mb-2 font-semibold">Total Balance</p>
-					<p className=" text-4xl">$69,258.00</p>
+					<p className="text-tert mb-2 font-semibold">Total Balance</p>
+					<p className="text-4xl text-zinc-900">$69,258.00</p>
 				</div>
 				<div className="transactions flex items-center justify-between w-full">
 					<div className="send rounded-full flex items-center gap-2 p-4 px-8 border-2 border-zinc-400">
@@ -45,7 +45,9 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="cards"></section>
+			<section className="cards bg-primary min-h-72 mt-32 w-full">
+				<div className="w-4/5 border border-tert h-52"></div>
+			</section>
 			<section className="quick-transaction"></section>
 			<section className="activity"></section>
 		</main>
