@@ -20,3 +20,23 @@ body {
 .react-icons {
 	vertical-align: middle;
 }
+
+.swiper-slide:first-child {
+	margin-left: -3rem;
+}
+
+/* .swiper-slide:last-child {
+	margin-right: 1.5rem;
+} */
+
+/* .swiper-slide:first-child {
+	margin-left: 1.5rem;
+}
+
+/* .swiper-slide:last-child {
+	margin-right: 30rem;
+} */
+
+/* .swiper-wrapper {
+	margin-right: 3rem;
+} */

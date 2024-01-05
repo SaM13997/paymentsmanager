@@ -4,7 +4,7 @@ import { IoIosMore } from 'react-icons/io'
 
 export function Overview({}) {
 	return (
-		<section className="overview p-8 flex flex-col items-start justify-center">
+		<section className="overview p-8 px-6 flex flex-col items-start justify-center">
 			<div className="balance mb-6">
 				<p className="text-tert mb-2 font-semibold">Total Balance</p>
 				<p className="text-4xl text-zinc-900">$69,258.00</p>
