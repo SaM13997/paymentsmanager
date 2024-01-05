@@ -25,6 +25,10 @@ body {
 	margin-left: -3rem;
 }
 
+.swiper-slide {
+	transition: all;
+}
+
 /* .swiper-slide:last-child {
 	margin-right: 1.5rem;
 } */
