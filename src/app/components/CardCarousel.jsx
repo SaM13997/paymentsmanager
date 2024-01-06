@@ -21,7 +21,7 @@ export function CardCarousel({}) {
 		}
 	}
 	return (
-		<section className="cards py-5 overflow-x-visible bg-primary min-h-72 mt-28 w-full border-b-2 border-zinc-700">
+		<section className="cards py-5 overflow-x-visible bg-primary mt-28 w-full border-b-2 border-zinc-700">
 			<div className="swiper-parent overflow-x-visible ">
 				<Swiper
 					className="-mt-32 overflow-x-visible"
@@ -47,10 +47,10 @@ export function CardCarousel({}) {
 				</Swiper>
 			</div>
 			<section className="quick-transaction mt-8  ">
-				<p className="text-2xl text-slate-200 mx-6 mb-6 font-medium">
+				<p className="text-2xl text-slate-200 mx-6 mb-4 font-medium">
 					Quick Transaction
 				</p>
-				<div className="quick-transaction-carousel text-slate-200">
+				<div className="quick-transaction-carousel mb-2 text-slate-200">
 					<QuickTransactionCarousel />
 				</div>
 			</section>
