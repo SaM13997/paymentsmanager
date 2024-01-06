@@ -4,10 +4,9 @@ import { Card } from './Card'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { useSwiper } from 'swiper/react'
+import QuickTransactionCarousel from './QuickTransactionCarousel'
 
 export function CardCarousel({}) {
-	const swiperInstance = useSwiper()
 	function handleSlidePadding(swiper) {
 		if (swiper.isBeginning) {
 			const swiperSlide = document.querySelector('.swiper-slide')
@@ -22,7 +21,7 @@ export function CardCarousel({}) {
 		}
 	}
 	return (
-		<section className="cards py-5 overflow-x-visible bg-primary min-h-72 mt-28 w-full">
+		<section className="cards py-5 overflow-x-visible bg-primary min-h-72 mt-28 w-full border-b-2 border-zinc-700">
 			<div className="swiper-parent overflow-x-visible ">
 				<Swiper
 					className="-mt-32 overflow-x-visible"
@@ -47,6 +46,14 @@ export function CardCarousel({}) {
 					</SwiperSlide>
 				</Swiper>
 			</div>
+			<section className="quick-transaction mt-8  ">
+				<p className="text-2xl text-slate-200 mx-6 mb-6 font-medium">
+					Quick Transaction
+				</p>
+				<div className="quick-transaction-carousel text-slate-200">
+					<QuickTransactionCarousel />
+				</div>
+			</section>
 		</section>
 	)
 }

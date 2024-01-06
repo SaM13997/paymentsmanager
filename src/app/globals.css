@@ -15,6 +15,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100dvh;
+	overflow-x: hidden;
 }
 
 .react-icons {
@@ -24,9 +25,22 @@ body {
 .swiper-slide:first-child {
 	margin-left: -3rem;
 }
+.quick-transaction-carousel .swiper-slide:first-child {
+	margin-left: 0rem;
+	/* margin-left: -8rem; */
+}
 
 .swiper-slide {
 	transition: all;
+}
+
+.quick-transaction-carousel .swiper-slide {
+	max-width: max-content;
+	margin-right: 10px;
+}
+
+.quick-transaction-carousel .swiper-wrapper {
+	overflow-x: visible;
 }
 
 /* .swiper-slide:last-child {
