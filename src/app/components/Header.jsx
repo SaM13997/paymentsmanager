@@ -7,7 +7,7 @@ export default function Header(props) {
 		<header className="p-4 px-6 flex items-center justify-between">
 			<div className="flex gap-3  items-center">
 				<img
-					src="https://t.ly/wwMqv"
+					src="/images/avatar.jpg"
 					alt="user avatar"
 					className="w-12 h-12 rounded-full object-cover "
 				/>

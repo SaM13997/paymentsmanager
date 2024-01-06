@@ -12,11 +12,9 @@ export function CardCarousel({}) {
 		if (swiper.isBeginning) {
 			const swiperSlide = document.querySelector('.swiper-slide')
 			swiperSlide.style.marginLeft = '-3rem'
-			console.log(1)
 		} else {
 			const swiperSlide = document.querySelector('.swiper-slide')
 			swiperSlide.style.marginLeft = '-1.5rem'
-			console.log(2)
 		}
 		if (swiper.isEnd) {
 			const swiperSlide = document.querySelector('.swiper-slide')
@@ -34,19 +32,18 @@ export function CardCarousel({}) {
 					slidesOffsetBefore={25}
 					slidesOffsetAfter={25}
 					onSlideChange={handleSlidePadding}
-					onSwiper={(swiper) => console.log(swiper)}
 				>
 					<SwiperSlide>
-						<Card />
+						<Card image="card1" />
 					</SwiperSlide>
 					<SwiperSlide>
-						<Card />
+						<Card image="card2" />
 					</SwiperSlide>
 					<SwiperSlide>
-						<Card />
+						<Card image="card3" />
 					</SwiperSlide>
 					<SwiperSlide>
-						<Card />
+						<Card image="card4" />
 					</SwiperSlide>
 				</Swiper>
 			</div>

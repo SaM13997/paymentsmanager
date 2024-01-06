@@ -23,8 +23,9 @@ const config: Config = {
 			},
 			colors: {
 				primary: '#09090b',
-				sec: '#71717a',
-				tert: '#52525b',
+				sec: '#52525b',
+				tert: '#71717a',
+				quad: '#a1a1aa',
 			},
 			keyframes: {
 				'accordion-down': {
