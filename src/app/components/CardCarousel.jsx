@@ -34,16 +34,16 @@ export function CardCarousel({}) {
 					onSlideChange={handleSlidePadding}
 				>
 					<SwiperSlide>
-						<Card image="card1" />
+						<Card num="1" />
 					</SwiperSlide>
 					<SwiperSlide>
-						<Card image="card2" />
+						<Card num="2" />
 					</SwiperSlide>
 					<SwiperSlide>
-						<Card image="card3" />
+						<Card num="3" />
 					</SwiperSlide>
 					<SwiperSlide>
-						<Card image="card4" />
+						<Card num="4" />
 					</SwiperSlide>
 				</Swiper>
 			</div>
