@@ -18,6 +18,10 @@ body {
 	overflow-x: hidden;
 }
 
+.css-ox0w6b:last-child {
+	flex-grow: 1;
+}
+
 .react-icons {
 	vertical-align: middle;
 }

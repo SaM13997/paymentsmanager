@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 export function Activity({}) {
 	return (
-		<section className="activity py-6 bg-primary flex flex-col justify-between flex-grow">
+		<section className="activity py-6 h-full bg-primary flex flex-col justify-between flex-grow">
 			<div className="flex justify-between items-center mx-6 mb-2">
 				<p className="text-2xl text-slate-200 font-medium">Activity</p>
 				<FaArrowRight className="text-zinc-100 mr-[2px]" />
@@ -23,6 +23,7 @@ export function Activity({}) {
 					<FaAngleDown />
 				</div>
 			</div>
+			<div></div>
 		</section>
 	)
 }
