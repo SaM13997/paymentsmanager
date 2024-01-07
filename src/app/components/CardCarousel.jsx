@@ -21,16 +21,15 @@ export function CardCarousel({}) {
 		}
 	}
 	return (
-		<section className="cards py-5 overflow-x-visible bg-primary mt-28 w-full border-b-2 border-zinc-700">
-			<div className="swiper-parent overflow-x-visible ">
+		<section className="cards py-5 overflow-x-visible bg-primary mt-28 w-full border-b-2 w-full border-zinc-700">
+			<div className="swiper-parent overflow-x-visible mx-auto">
 				<Swiper
-					className="-mt-32 overflow-x-visible"
+					className="-mt-32 overflow-x-visible !px-6 "
 					spaceBetween={12}
-					centeredSlides
 					slidesPerView={1.3}
-					slidesOffsetBefore={25}
-					slidesOffsetAfter={25}
-					onSlideChange={handleSlidePadding}
+					// slidesOffsetBefore={25}
+					// slidesOffsetAfter={25}
+					// onSlideChange={handleSlidePadding}
 				>
 					<SwiperSlide>
 						<Card num="1" />

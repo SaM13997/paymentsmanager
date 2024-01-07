@@ -3,14 +3,17 @@ import { CardCarousel } from './components/CardCarousel'
 import { Overview } from './components/Overview'
 import Image from 'next/image'
 import Header from './components/Header.jsx'
+import FadeComponent from './components/FadeComponent.jsx'
 
 export default function Home() {
 	return (
 		<main className="flex flex-col h-screen">
-			<Header />
-			<Overview />
-			<CardCarousel />
-			<Activity />
+			<FadeComponent options={{ cascade: true, duration: 800 }}>
+				<Header />
+				<Overview />
+				<CardCarousel />
+				<Activity />
+			</FadeComponent>
 		</main>
 	)
 }

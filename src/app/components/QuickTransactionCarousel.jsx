@@ -9,7 +9,7 @@ function QuickTransactionCarousel() {
 	return (
 		<Swiper
 			className="overflow-x-visible !px-6"
-			slidesOffsetBefore={12}
+			// slidesOffsetBefore={12}
 			freeMode
 			slidesPerView="auto"
 		>

@@ -22,18 +22,39 @@ body {
 	vertical-align: middle;
 }
 
-.swiper-slide:first-child {
-	margin-left: -3rem;
+.swiper > * {
+	user-select: none;
 }
+
 .quick-transaction-carousel .swiper-slide:first-child {
 	margin-left: 0rem;
 	/* margin-left: -8rem; */
 }
 
 .swiper-slide {
-	transition: all;
+	animation: slide-up-fade-in 1.5s ease-out forwards;
+	animation-delay: 500ms;
 }
 
+.swiper-parent .swiper-slide:nth-child(1) {
+	animation-delay: 500ms;
+}
+
+.swiper-parent .swiper-slide:nth-child(2) {
+	animation-delay: 1000ms;
+	/* animation-duration: 2.5s; */
+}
+
+@keyframes slide-up-fade-in {
+	0% {
+		opacity: 0.7;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
 .quick-transaction-carousel .swiper-slide {
 	max-width: max-content;
 	margin-right: 10px;
