@@ -17,13 +17,13 @@ export function Overview({}) {
 						cascade: true,
 					}}
 				>
-					<div className="send rounded-full flex items-center gap-2 p-4 px-9 border-2 border-zinc-400">
+					<div className="send rounded-full flex items-center gap-2 p-4 px-6 w-full border-2 border-zinc-400">
 						<FaArrowUp />
-						<p className="mt-[1px] text-lg">Send</p>
+						<p className="mt-[1px]">Send</p>
 					</div>
-					<div className="receive rounded-full flex items-center gap-2 p-4 px-9 border-2 border-zinc-400">
+					<div className="receive rounded-full flex items-center w-full gap-2 px-6 p-4 border-2 border-zinc-400">
 						<FaArrowDown />
-						<p className="text-lg">Receive</p>
+						<p className="">Receive</p>
 					</div>
 					<div className="more rounded-full w-16 h-16 grid place-content-center border-2 border-zinc-400">
 						<IoIosMore />

@@ -8,7 +8,9 @@ import FadeComponent from './components/FadeComponent.jsx'
 export default function Home() {
 	return (
 		<main className="flex flex-col h-screen">
-			<FadeComponent options={{ cascade: true, duration: 800 }}>
+			<FadeComponent
+				options={{ cascade: true, duration: 800, triggerOnce: true }}
+			>
 				<Header />
 				<Overview />
 				<CardCarousel />

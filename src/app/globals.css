@@ -37,7 +37,6 @@ body {
 
 .swiper-slide {
 	animation: slide-up-fade-in 1.5s ease-out forwards;
-	animation-delay: 500ms;
 }
 
 .swiper-parent .swiper-slide:nth-child(1) {
