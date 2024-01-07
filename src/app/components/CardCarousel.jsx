@@ -26,7 +26,7 @@ export function CardCarousel({}) {
 				<Swiper
 					className="-mt-32 overflow-x-visible !px-6 "
 					spaceBetween={12}
-					slidesPerView={1.3}
+					slidesPerView={1.1}
 					// slidesOffsetBefore={25}
 					// slidesOffsetAfter={25}
 					// onSlideChange={handleSlidePadding}

@@ -13,7 +13,7 @@ export function Card({ num }) {
 					<p className="text-tert text-xs text-end">Wallet</p>
 				</div>
 				<div className="cardNumber">
-					<p className="text-tert text-sm">
+					<p className="text-tert text-sm text-right">
 						**** **** **** {[2564, 1252, 2563, 7856][num - 1]}
 					</p>
 					<p className="text-primary text-sm text-end">
